@@ -1,0 +1,581 @@
+/****************** D E S I G N   R E S P O N S I V E *****************************/
+
+  /*Escalas grandes*/
+  @media screen and (min-width:1300px)
+  {
+   
+    #work .contentDev 
+    {  
+      width: 90%;
+    }
+    
+  
+  }
+
+
+  @media screen and (max-width:1200px ),(max-width:1299px)
+  {
+    
+    #work .service
+      {
+        
+        margin: auto;
+        width: 80%;
+      }
+    
+      #portfolio .project .responsive
+      {
+        top: 50px;
+        left: calc(70% - 15px);
+        
+      }
+      #portfolio .project .description h4
+          {
+      
+        font-size: 30px;
+        left: calc(28%);
+        }
+      #portfolio .project .description h5
+        {
+        width: 50%;
+        font-size: 15px;
+        top: 50%;
+        left: calc(25%);
+        
+        }
+      #portfolio .project .description .repository
+        {
+          font-size: 17px;
+        }  
+    
+    
+     
+  }
+
+
+
+
+  @media screen and (max-width:992px ),(max-width:1199px)
+  {
+    #work .service
+      {   
+        margin: auto;
+        width: 100%;
+      }
+    #portfolio .project .responsive
+      {
+        top: 50px;
+        left: calc(70% - 15px);
+        
+      }
+  #portfolio .project .description h4
+      {
+   
+    font-size: 25px;
+    left: calc(25%);
+    }
+  #portfolio .project .description h5
+    {
+    width: 50%;
+    font-size: 15px;
+    top: 50%;
+    left: calc(25%);
+    
+    }
+    #portfolio .project .description .repository
+    {
+      font-size: 17px;
+    }  
+      /*
+#portfolio .project .responsive
+  {
+    left: calc(70% + 15px); 
+  }
+  #portfolio .fadeIn
+      {
+        
+        padding: 30px;
+        
+      }
+  #portfolio .project .description h4
+  {
+   
+    font-size: 50px;
+    left: calc(28%);
+  }
+  #portfolio .project .description h5
+  {
+    width: 50%;
+    font-size: 22px;
+    top: 50%;
+    left: calc(27%);
+    
+  }
+  #portfolio .project .description .repository
+  {
+    font-size: 20px;
+  }  
+      */
+  }
+
+
+
+
+
+
+ @media screen and (max-width:700px ),(max-width:991px)
+  {
+    #work .service
+      {  
+        margin: auto;
+        width: 100%;
+      }
+    #work .contentDev
+      {
+        
+        width: 70%;
+        margin: auto;
+      }
+
+   
+  }
+
+
+
+
+ @media screen and (max-width:562px ),(max-width:699px)
+  { 
+    #work .contentDev .dev-item
+      {
+        margin: 10px;
+      }
+   
+  }
+
+
+
+@media screen and (max-width:444px),(max-width:561px)
+  {
+    #home .iam{
+      margin: 20px;
+      font-size: 14px;
+    }
+    #work .contentDev
+      {    
+        width: 90%;
+      }
+
+ 
+  }
+
+
+
+@media screen and (max-width:403px),(max-width:443px)
+  {
+    #work .contentDev
+      {
+        width: 100%;
+      }
+   
+  }
+
+
+@media screen and (max-width:270px),(max-width:402px)
+  {
+    #home h1
+      {
+        padding: 10px 10px;
+        letter-spacing: 3px;
+        margin: 3px 0;
+        font-size: 32px;
+      }
+    #home h2 .prof
+      {
+        font-size: 22px;
+      }
+    #home h3 .hi
+      {
+        margin-top: 20px;
+        font-size: 15px;
+      }
+    #home .iam
+      {
+        margin-top: 30px; 
+        font-size: 12px;
+      }
+
+    #about .title,
+    #work .title,
+    #portfolio .title,
+    #contacted .title
+      {
+        font-size: 22px;
+      }
+    #about h4
+      {
+        font-size: 16px;
+      }
+    #about .aboutme .aboutdesc p
+      {
+        font-size: 12px;
+        padding: 0;
+      }
+    #about .profiledev .photo 
+      {
+        width: 90%;
+      }
+    #about .info
+      {
+        width: 70%;
+        bottom: -50px; 
+      }
+    #about .info h2
+      {
+          font-size: 18px;
+      }
+    #about .info p
+      {
+          font-size: 10px;
+      }
+    #about .icons .fa
+      {
+        font-size: 13px;
+      }
+
+
+
+
+    /*****work*****/
+ 
+    #work .workIn
+      {
+        
+        width: 100%;
+        margin: auto;
+      
+      }
+    #work .workIn .linked
+      {
+      
+      width: 100%;
+        margin: auto;
+      
+      }
+    	
+    #work .media-body h3
+      {
+        font-size: 17px;
+      }
+    #work .media-body h4
+      {
+        font-size: 15px;
+      }
+    #work .media-body h5
+      {
+        font-size: 12px;
+      }
+    #work .contentDev .dev-item p
+      {
+        font-size: 10px;
+      }
+    #work .contentDev .dev-item
+      {
+        height: 70px;
+        width: 70px;
+        margin: 6px;
+      }
+    #work .contentDev 
+      {
+        margin-bottom: 30px;
+      }
+    #work .subtitle
+      {
+        font-size: 22px;
+      }
+    #work .textTool
+      {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+    #work .text
+      {
+        font-size: 12px;
+      }
+    #contacted .contactInfo p
+      {
+        font-size: 12px;
+      }
+    #portfolio .fadeIn
+      {
+        padding: 0px;
+        
+      }
+    
+   
+  }
+
+
+@media screen and (max-width:100px),(max-width:269px)
+  {
+    body
+    {
+      min-width: 200px;
+    }
+    #home .iam
+      {
+        margin-top: 10px; 
+        font-size: 10px;
+      }
+    #work .service
+    {
+      margin: auto;
+      width: 95%;
+    }
+   
+    #work .contentDev .dev-item
+    {
+      height: 50px;
+      width: 50px;
+      margin: 5px;
+    }
+    #work .contentDev .dev-item p
+    {
+      font-size: 8px;
+    }
+    #work .textTool
+    {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    #work .text
+    {
+      font-size: 11px;
+    }
+
+  }
+
+
+/************* portfolio min-width 700px **************/
+@media screen and (max-width:701px),(max-width:991px)
+{
+  #portfolio .project .responsive
+  {
+    left: calc(70% + 15px); 
+  }
+  #portfolio .fadeIn
+      {
+        
+        padding: 30px;
+        
+      }
+  #portfolio .project .description h4
+  {
+   
+    font-size: 50px;
+    left: calc(25%);
+  }
+  #portfolio .project .description h5
+  {
+    width: 50%;
+    font-size: 22px;
+    top: 50%;
+    left: calc(27%);
+    
+  }
+  #portfolio .project .description .repository
+  {
+    font-size: 20px;
+  }  
+}
+@media screen and (max-width:651px),(max-width:700px)
+{
+
+  #portfolio .project .responsive
+  {
+    left: calc(70% + 15px); 
+  }
+  #portfolio .project .description h4
+  {
+   
+    font-size: 40px;
+    left: calc(23%);
+  }
+  #portfolio .project .description h5
+  {
+    width: 50%;
+    font-size: 17px;
+    top: 50%;
+    left: calc(25%);
+    
+  }
+  #portfolio .project .description .repository
+  {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width:501px),(max-width:650px)
+{
+  #portfolio .project .responsive
+  {
+    left: calc(70% + 15px); 
+  }
+  #portfolio .project .description h4
+  {  
+    font-size: 30px;
+    left: calc(23%);
+  }
+  #portfolio .project .description h5
+  {
+    width: 50%;
+    font-size: 17px;
+    top: 50%;
+    left: calc(25%);
+    
+  }
+  #portfolio .project .description .repository
+  {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width:451px),(max-width:500px)
+{
+  #portfolio .project .responsive
+  {
+    left: calc(70% + 15px); 
+  }
+  #portfolio .project .description h4
+  {
+   
+    font-size: 25px;
+    left: calc(25%);
+  }
+  #portfolio .project .description h5
+  {
+    width: 50%;
+    font-size: 15px;
+    top: 55%;
+    left: calc(22%);
+    
+  }
+  #portfolio .project .description .repository
+  {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:403px),(max-width:450px)
+  {
+      #portfolio .project .responsive
+      {
+        left: calc(70% + 15px); 
+      }
+      #portfolio .project .description h4
+      {
+        font-size: 22px;
+        left: calc(23%);
+      }
+      #portfolio .project .description h5
+      {
+        width: 50%;
+        font-size: 14px;
+        top: 50%;
+        left: calc(25%);
+        
+      }
+      #portfolio .project .description .repository
+      {
+        font-size: 13px;
+      }
+   
+  }
+
+@media screen and (max-width:350px),(max-width:402px)
+  {
+    #portfolio .project .responsive
+      {
+        top: 40px;
+        left: calc(80% - 20px); 
+      }
+      #portfolio .project .description h4
+      {
+        font-size: 20px;
+        left: calc(23%);
+      }
+      #portfolio .project .description h5
+      {
+        width: 40%;
+        font-size: 12px;
+        top: 55%;
+        left: calc(30%);
+        
+      }
+      #portfolio .project .description .repository
+      {
+        font-size: 13px;
+        left: calc(40% - 20px);
+      }
+  }
+
+  @media screen and (max-width:290px),(max-width:349px)
+  {
+    #portfolio .fadeIn
+    {
+      padding: 0px;
+      
+    }
+    #portfolio .project .responsive
+      {
+        width: 20%;
+        border-radius: 3px;
+        top: 50px;
+        left: calc(80% - 20px); 
+      }
+      #portfolio .project .description h4
+      {
+        font-size: 20px;
+        left: calc(23%);
+      }
+      #portfolio .project .description h5
+      {
+        width: 50%;
+        font-size: 12px;
+        top: 55%;
+        left: 25%;
+        
+      }
+      #portfolio .project .description .repository
+      {
+        font-size: 13px;
+        top: 80%;
+        left: calc(35%);
+      }
+
+  }
+
+  @media screen and (max-width:100px),(max-width:289px)
+  {
+    #portfolio .project .responsive
+    {
+      top: 50px;
+      left: calc(80% - 20px); 
+    }
+    #portfolio .project .description h4
+    {
+      font-size: 15px;
+      left: calc(23%);
+    }
+    #portfolio .project .description h5
+    {
+      font-size: 12px;
+      width: 50%;
+      top: 45%;
+      left: 25%;
+      
+    }
+    #portfolio .project .description .repository
+    {
+      font-size: 13px;
+      top: 76%;
+      left: calc(40% - 20px);
+    }
+
+  }
